@@ -11,7 +11,7 @@ This was an OpencCL project that integrated a two part reaction diffusion equati
 - Interop between OpenCL and OpenGL
 - Diverse range of resulting patterns
 
-The device code uses an implicit euler integration that produced stable and fast results with a convolution mask that evaluates diagonal neighbours. You can access a short paper I wrote on the subject [here](@root_path/files/reaction_diffusion_report.pdf) which also has more details on implantation.
+The device code uses an implicit euler integration that produced stable and fast results with a convolution mask that evaluates diagonal neighbours. You can access a short paper I wrote on the subject [here](/assets/data/reaction_diffusion_report.pdf) which also has more details on implantation.
 
 Follow [this link](https://github.com/joshbainbridge/reaction-diffusion) to the GitHub project.
 

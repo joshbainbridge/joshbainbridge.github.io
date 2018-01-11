@@ -14,7 +14,7 @@ The Heart of the Tree is an animated short created as a final year project at Fa
 
 Within this project my responsibilities tackled both creative and technical issues as technical director. Developing an illustrative look to the final image and enabling creative members of the team to reach their full potential without technical limitations.
 
-You can download the rsl shaders and slim files for maya [here](@root_path/files/hott_shaders.zip).
+You can download the rsl shaders and slim files for maya [here](/assets/data/hott_shaders.zip).
 
 <p id="media">
 <img src="@path/exterior.jpg" alt="@title" width="540px">

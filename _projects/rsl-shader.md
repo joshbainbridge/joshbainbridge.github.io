@@ -12,9 +12,9 @@ This was an rsl shader project I did while at Bournemouth University. I used the
 - Render any .obj file
 - Russian roulette sampling
 
-I then wrote a layered shader to allow the combination of two input shaders. This could be either a dielectric, diffuse or even another layered shader allowing for a stacked design. Each layer used a russian roulette approach to sampling its inputs so that branching was reduced and iteration cycles were faster. A short paper I wrote can be accessed [here](@root_path/files/rendering_report.pdf) that outlines the theory and implementation in more detail.
+I then wrote a layered shader to allow the combination of two input shaders. This could be either a dielectric, diffuse or even another layered shader allowing for a stacked design. Each layer used a russian roulette approach to sampling its inputs so that branching was reduced and iteration cycles were faster. A short paper I wrote can be accessed [here](/assets/data/rendering_report.pdf) that outlines the theory and implementation in more detail.
 
-You can download the project, including rsl shaders and python code [here](@root_path/files/rendering_project.zip).
+You can download the project, including rsl shaders and python code [here](/assets/data/rendering_project.zip).
 
 <p id="media">
 <img src="@path/rendering_project_master.jpg" alt="@title" width="540px">

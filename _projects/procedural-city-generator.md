@@ -14,7 +14,7 @@ This is a procedural city tool I developed for Houdini while studying at Bournem
 
 Allowing the point data to be exported independently means it can be used in other ways or extended. Also having the segments built externally in a modular fashion gave real artistic control to the user.
 
-You can download the otl and an example for non-commercial use [here](@root_path/files/city_tool.zip).
+You can download the otl and an example for non-commercial use [here](/assets/data/city_tool.zip).
 
 <p id="media">
 <iframe src="https://player.vimeo.com/video/132721254?color=ffffff&title=0&byline=0&portrait=0" width="540" height="304" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
