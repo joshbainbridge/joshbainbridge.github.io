@@ -16,6 +16,6 @@ Techniques such as instancing, octree structures and procedural noise are curren
 Follow [this link](https://github.com/joshbainbridge/craft-game) to the GitHub project.
 
 <p id="media">
-<img src="@path/game_screenshot.jpg" alt="@title" width="540px">
+<img src="/assets/img/game_screenshot.jpg" alt="@title" width="540px">
 <iframe src="https://player.vimeo.com/video/125956590?color=ffffff&title=0&byline=0&portrait=0" width="540" height="304" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>

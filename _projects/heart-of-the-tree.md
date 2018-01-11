@@ -17,7 +17,7 @@ Within this project my responsibilities tackled both creative and technical issu
 You can download the rsl shaders and slim files for maya [here](/assets/data/hott_shaders.zip).
 
 <p id="media">
-<img src="@path/exterior.jpg" alt="@title" width="540px">
-<img src="@path/interior.jpg" alt="@title" width="540px">
+<img src="/assets/img/exterior.jpg" alt="@title" width="540px">
+<img src="/assets/img/interior.jpg" alt="@title" width="540px">
 <iframe src="https://player.vimeo.com/video/97888639?color=ffffff&title=0&byline=0&portrait=0" width="540" height="304" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>

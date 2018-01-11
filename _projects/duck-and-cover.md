@@ -17,6 +17,6 @@ The simulation used a two stage process of first creating a fuel, then the ignit
 An example frame of just the flame simulation can be seen below.
 
 <p id="media">
-<img src="@path/fire_simulation.jpg" alt="@title" width="540px">
+<img src="/assets/img/fire_simulation.jpg" alt="@title" width="540px">
 <iframe src="https://player.vimeo.com/video/123942322?color=ffffff&title=0&byline=0&portrait=0" width="540" height="304" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>

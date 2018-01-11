@@ -17,8 +17,8 @@ The renderer is multi-threaded and uses a task based system to handle work loads
 Follow [this link](https://github.com/joshbainbridge/morphogenetic-sim) to the GitHub project.
 
 <p id="media">
-<img src="@path/output_two.jpg" alt="@title" width="540px">
-<img src="@path/output_one.jpg" alt="@title" width="540px">
+<img src="/assets/img/output_two.jpg" alt="@title" width="540px">
+<img src="/assets/img/output_one.jpg" alt="@title" width="540px">
 <iframe src="https://player.vimeo.com/video/124716574?color=ffffff&title=0&byline=0&portrait=0" width="540" height="227" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <iframe src="https://player.vimeo.com/video/124678271?color=ffffff&title=0&byline=0&portrait=0" width="540" height="304" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>

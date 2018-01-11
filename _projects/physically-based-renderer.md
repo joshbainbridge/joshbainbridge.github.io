@@ -18,7 +18,7 @@ This project was developed in c++ and is written as an independent library, alth
 Follow [this link](https://github.com/joshbainbridge/msc-project) to the GitHub project.
 
 <p id="media">
-<img src="@path/image_one.jpg" alt="@title" width="540px">
-<img src="@path/image_two.jpg" alt="@title" width="540px">
+<img src="/assets/img/image_one.jpg" alt="@title" width="540px">
+<img src="/assets/img/image_two.jpg" alt="@title" width="540px">
 <iframe src="https://player.vimeo.com/video/137107761?color=ffffff&title=0&byline=0&portrait=0" width="540" height="303" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>

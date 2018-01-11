@@ -17,6 +17,6 @@ I then wrote a layered shader to allow the combination of two input shaders. Thi
 You can download the project, including rsl shaders and python code [here](/assets/data/rendering_project.zip).
 
 <p id="media">
-<img src="@path/rendering_project_master.jpg" alt="@title" width="540px">
-<img src="@path/rendering_project_second.jpg" alt="@title" width="540px">
+<img src="/assets/img/rendering_project_master.jpg" alt="@title" width="540px">
+<img src="/assets/img/rendering_project_second.jpg" alt="@title" width="540px">
 </p>
