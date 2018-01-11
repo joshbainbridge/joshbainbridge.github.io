@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		{% if page.layout == "page" %}
+		<title>{{ page.title }}, {{ site.name }}</title>
+		{% else %}
+		<title>{{ site.name }}</title>
+		{% endif %}
+		<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen"> 
+	</head>
+	<body>
+		<div id="container">
+			<h1 class="col four">
+				<a href="{{ site.url }}">{{ site.author }}</a> / {{ site.profession }}
+			</h1>
+			<em class="col three"><p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p></em>
+			<hr>
+			<div id="navigation" class="col three">
+				<ul>
+					<li><em>Projects</em></li> {% assign projects = site.projects | sort: "order" %}
+				    {% for item in projects %}
+				    {% if item.id == page.id %}
+				    <li class="selected" >› <a href="{{ item.url }}">{{ item.title }}</a></li>
+				    {% else %}
+				    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+				    {% endif %}
+				    {% endfor %}
+					<li><em>Pages</em></li> {% assign pages = site.pages | sort: "order" %}
+				    {% for item in pages %}
+				    {% if item.id == page.id %}
+				    <li class="selected" >› <a href="{{ item.url }}">{{ item.title }}</a></li>
+				    {% else %}
+				    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+				    {% endif %}
+				    {% endfor %}
+				</ul>
+			</div>
+			<div id="content" class="col eight">
+				{% if page.layout == "project" %}
+				<p class="date col one">{{ page.date | date: "%Y, %b-" }}</p>
+				{% else %}
+				<p class="date col one">&para;</p>
+				{% endif %}
+				<div class="description col seven">
+					{{ content }}
+				</div>
+			</div>
+			<hr>
+			<p id="footer" class="col seven">
+				&copy; Copyright {{ site.author }} {{ site.time | date: "%Y" }}<br>
+				<em>content managed by <a href="https://jekyllrb.com">Jekyll</a></em>
+			</p>
+		</div>
+	</body>
+</html>

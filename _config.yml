@@ -1,2 +1,14 @@
+author: Josh Bainbridge
+profession: VFX Software Engineer
 name: Josh Bainbridge's Portfolio
+url: http://joshbainbridge.github.io
+email: joshbainbridge@googlemail.com
 markdown: kramdown
+
+exclude: [LICENSE.md, README.md]
+
+collections:
+  projects:
+    output: true
+  pages:
+    output: true
